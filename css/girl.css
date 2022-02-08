@@ -1,0 +1,52 @@
+/* 清除默认内外边距 */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 设置大盒子样式 */
+
+.preview_img {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+}
+
+
+/* 遮挡层样式 */
+
+.mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #FEDE4F;
+    opacity: .5;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+
+
+/* 大图片样式 */
+
+.big {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 330px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.big img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
